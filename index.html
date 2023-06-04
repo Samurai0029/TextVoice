@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Voice to Text App</title>
+</head>
+<body>
+    <div class="main-box">
+        <img src="./exchange.png" alt="exchange" id="exchange">
+        <div class="changeFunc">
+            <div class="voice-to-text">
+                <h2 id = "changer">Voice to text App</h2>
+                <textarea name="Result" id="result" cols="30" rows="10" placeholder="Result" readonly></textarea>
+                <div class="btns">
+                    <button class="button-85 startbtn" id="startbtn" >Start</button>
+                    <button class="button-85 stopbtn" id="stopbtn">Stop</button>
+                </div>
+            </div> 
+            <!--***************************************************-->
+            <div class="text-to-voice">
+                <h2 id = "changer">Text to voice App</h2>
+                <textarea name="Input" id="input" cols="30" rows="10" placeholder="Input your text"></textarea>
+                <br>
+                <button id = "read" class="button-85 startbtn">read</button>
+            </div>
+
+        </div>
+
+    </div>
+    <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
+<!-- <span id  = "voice">Voice</span> to <span id = "text">Text</span> -->
